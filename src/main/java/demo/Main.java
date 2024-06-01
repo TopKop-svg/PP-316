@@ -10,6 +10,6 @@ public class Main{
         System.out.println(com.post(userAdd));
         User userEdit = new User(3L, "Thomas", "Shelby", (byte) 32);
         System.out.println(com.put(userEdit));
-        System.out.println(com.delete(userEdit.getId()));
+       /* System.out.println(com.delete(userEdit.getId()));*/
     }
 }
